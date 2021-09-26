@@ -3,8 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+.hea{
     width: 100%;
-    height: 300px;
-    background-color: bisque;
+    height: 200px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
 }
+.header{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(76, 24, 97);
+    position: relative;
+    top: 30px;
+    
+}  
+.header img{
+    width: 100px;
+    height: 175px;
+    position: absolute;
+    bottom: 0;
+}
+.header h3{
+    text-align: right;
+}
+.head{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(170, 189, 226);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ .heade{
+    width: 25%;
+    height: 800px;
+    background-color: rgb(137, 147, 167);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
