@@ -1,0 +1,39 @@
+body {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 27%, rgba(0,212,255,0.5606617647058824) 49%, rgba(70,208,179,1) 93%);
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-align: center;
+  
+}
+#first {
+    background-color: rgb(156, 8, 156);
+}
+table{
+    width: 1300px;
+    height: 600px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    width: 200px;
+    background-color: red;
+    color:rgb(34, 33, 34);
+    border: 1px solid black;  
+}
+.day {
+    background-color: pink;
+}
+td:hover{
+    background: palevioletred;
+    color:papayawhip;
+}
+.day:hover {
+    background-color: lightgray;
+    color: lightgreen;
+    font-size: 18px;
+}
+img{
+    width:20%;
+}
